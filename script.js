@@ -83,3 +83,8 @@ function RandomColor2() {
     return 'rgb(' + r + ',' + g + ',' + b + ')';
 }
 
+
+function fadein(){
+    const h1 = document.querySelector('h1')
+    h1.classList.toggle("fadein")
+}
